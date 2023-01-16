@@ -7,4 +7,4 @@ export const categories = {
     HOME: "home"
 }
 
-export const navbarItems = [categories.ART, categories.BOOKS, categories.BOOKS, categories.SPIRITUALITY, categories.TRAVEL];
+export const navbarItems = [categories.ART, categories.BOOKS, categories.PHOTOGRAPHY, categories.SPIRITUALITY, categories.TRAVEL];
