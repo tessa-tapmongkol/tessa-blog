@@ -9,6 +9,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/art" />
+        <Route path="/books" />
+        <Route path="/photography" />
+        <Route path="/spirituality" />
+        <Route path="/travel" />
       </Routes>
     </Router>
   );

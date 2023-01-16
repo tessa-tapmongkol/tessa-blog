@@ -1,0 +1,29 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2% 10%;
+}
+
+.navbar-item {
+    display: inline;
+    margin-left: 50px;
+    color: black;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#logo {
+    color: black;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
