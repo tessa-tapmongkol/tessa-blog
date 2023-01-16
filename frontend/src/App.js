@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { categories } from "./constants/categories";
 import Home from "./pages/Home/Home";
 import Admin from "./pages/Admin/Admin";
-import { categories } from "./constants/categories";
 
 const App = () => {
   return (

@@ -1,0 +1,46 @@
+#home-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10% 20%;
+}
+
+#selfie {
+    height: 450px;
+}
+
+#about-desc {
+    margin-right: 100px;
+}
+
+#home-hi {
+    font-style: italic;
+    font-weight: 100;
+}
+
+#home-desc {
+    font-weight: 100;
+}
+
+#music-desc {
+    font-weight: 100;
+}
+
+#music-title, #social-title {
+    font-weight: 300;
+}
+
+#social-title, #home-music {
+    text-align: center;
+}
+
+#home-social {
+    margin: 10% 20%;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10% 0%;
+}
