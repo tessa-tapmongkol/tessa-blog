@@ -5,7 +5,8 @@ export const categories = {
     SPIRITUALITY: "spirituality",
     TRAVEL: "travel",
     HOME: "home",
-    JOURNAL: "journal"
+    JOURNAL: "journal",
+    CREATEPOST: "create"
 }
 
 export const navbarItems = [categories.ART, categories.BOOKS, categories.JOURNAL, categories.PHOTOGRAPHY, categories.SPIRITUALITY, categories.TRAVEL];

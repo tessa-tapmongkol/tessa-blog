@@ -4,6 +4,7 @@ import { categories } from "./constants/categories";
 import Home from "./pages/Home/Home";
 import Admin from "./pages/Admin/Admin";
 import Travel from "./pages/Travel/Travel";
+import CreatePost from "./pages/CreatePost/CreatePost";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path={`/${categories.PHOTOGRAPHY}`} />
         <Route path={`/${categories.SPIRITUALITY}`} />
         <Route path={`/${categories.TRAVEL}`} element={<Travel />} />
+        <Route path={`/${categories.CREATEPOST}`} element={<CreatePost />} />
       </Routes>
     </Router>
   );
