@@ -2,3 +2,45 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.markerPopup {
+    position: absolute;
+    top: 20vh;
+    right: 5vw;
+    background: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.markupTopRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#markerPopupX {
+    text-align: right;
+    margin: 0;
+}
+
+#markerTitle {
+    margin: 0;
+}
+
+#markerPopupX:hover {
+    cursor: pointer;
+}
+
+.markerPic {
+    height: 50px;
+    margin-left: 25px;
+    border-radius: 100px;
+}
+
+.markerTopRowFeat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
